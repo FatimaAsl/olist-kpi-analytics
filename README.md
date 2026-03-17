@@ -13,7 +13,6 @@ The project addresses the following refined research questions:
 - **RQ1:** How do Monthly Total Revenue and Average Order Value (AOV) trend between 2017 and 2018, and what specific months demonstrate peak seasonality?
 - **RQ2:** Is there a statistically significant association between Delivery Delay and Customer Satisfaction, and to what extent does this operational metric impact review scores?
 - **RQ3:** How do order volume, revenue, and delivery performance vary across the top 5 Brazilian states?
-- **RQ4:** Is there an association between order fulfillment performance, measured by delivery delay in days, and customer satisfaction, measured by average review score, at the order level?
 
 ## Repository Purpose
 This repository documents the Exploratory Data Analysis (EDA) phase of the project. The included Jupyter Notebook provides evidence of data understanding, validation, and preparation before SQL-based aggregation, KPI analysis, and visualizations.
@@ -42,6 +41,6 @@ Key evaluation metrics include total revenue, order volume, average delivery del
 
 ## Tools
 - Python
-- Jupyter Notebook
+- Jupyter Notebook /Colab Notebook
 - SQL 
 - Power BI
