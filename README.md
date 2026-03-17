@@ -19,15 +19,15 @@ This repository documents the Exploratory Data Analysis (EDA) phase of the proje
 
 ## Methodology & Project Stages
 The codebase in this repository executes the following pipeline:
-### 1. Data Ingestion & Cleaning: 
+#### 1. Data Ingestion & Cleaning: 
 Loading raw CSV files and handling missing values (e.g., filtering unfulfilled orders to prevent skewed delay metrics).
-### 2. SQL-to-Pandas Aggregation: 
+#### 2. SQL-to-Pandas Aggregation: 
 Resolving One-to-Many relationships by aggregating the items and payments tables to the order_id level to prevent double-counting of revenue.
-### 3. Feature Engineering:
+#### 3. Feature Engineering:
 Deriving new operational variables, specifically calculating delivery_delay_days from raw timestamps.
-### 4. Exploratory Data Analysis (EDA):
+#### 4. Exploratory Data Analysis (EDA):
 Visualizing temporal revenue trends and state-level logistical bottlenecks using matplotlib and seaborn.
-### 5.Statistical Testing:
+#### 5.Statistical Testing:
 Applying the Spearman Rank-Order Correlation to scientifically evaluate the non-parametric, ordinal relationship between delivery delays and customer review scores.
 
 ** No predictive modeling or machine learning techniques are applied at this stage **
